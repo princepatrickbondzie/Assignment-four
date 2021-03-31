@@ -1,0 +1,33 @@
+.foot {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.main {
+    /* margin: 0 auto; */
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    padding: 4%;
+}
+
+.list {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.list li {
+    list-style: none;
+    color: wheat;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+p {
+    width: 100%;
+    color: wheat;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

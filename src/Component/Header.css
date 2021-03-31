@@ -1,0 +1,25 @@
+.header {
+  background-color: black;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1%;
+}
+.ul1 {
+  width: 40%;
+}
+.ul2 {
+  width: 20%;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+ul li .le {
+  text-decoration: none;
+  color: wheat;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

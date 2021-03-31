@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login-container {
+  /* background-image: linear-gradient(#2980b9, #6dd5fa); */
+  /* background-color: #2980b9; */
+  background-image: url(./tom-podmore-3CksK6QSk2I-unsplash.jpg);
+  width: 100%;
+  padding: 10rem 0 0 10rem;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.log-card {
+  height: 60vh;
+  width: 30rem;
+  /* margin: 0 auto; */
+  background-color: wheat;
+  padding: 2%;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 20px 5px rgb(53, 52, 52);
+}
+
+.log-card h1 {
+  /* font-weight: lighter; */
+  color: black;
+}
+.in {
+  height: 8rem;
+}
+.in2 {
+  height: 12rem;
+}
+.in, .in2 {
+  background-color: rgba(34, 33, 33, 0.24);
+  width: 25rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 8px 0.3px rgb(104, 103, 103);
+  padding: 2%;
+}
+
+.in input, .in2 input {
+  height: 2rem;
+  border-style: none;
+  font-weight: lighter;
+  font-size: 0.7rem;
+  width: 20rem;
+  padding: 2%;
+  display: block;
+  color: white;
+  border-radius: 0.5rem;
+  /* background-color: rgba(97, 97, 97, 0.678); */
+}
+.in hr, .in2 hr {
+  border-style: none;
+  /* background-color: rgb(190, 190, 190); */
+  height: 0.06rem;
+  width: 100%;
+}
+.in label, .in2 label {
+  font-size: 0.95rem;
+}
+
+.pass {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem 0 1rem 0;
+}
+
+.pass h3 a, .pass p  h4 a, .pass p {
+  text-decoration: none;
+  color: black;
+}
+.pass input {
+  width: 10rem;
+  height: 2.7rem;
+  background-color: black;
+  color: wheat;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 2rem;
+ box-shadow: 2px 2px 11px 0.3px rgb(175, 173, 173);
+}
+.pass1 {
+  display: flex;
+}
+
+.pass1 h3 {
+  margin-left: 0;
+}
+.pass1 h3 a, .pass1 p {
+  text-decoration: none;
+  color: black;
+
+}
+
+#bt {
+  font-size: 0.92rem;
+}
